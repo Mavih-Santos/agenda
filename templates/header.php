@@ -23,12 +23,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?=  $BASE_URL ?>/css/style.css">
+    <link rel="stylesheet" href="<?=  $BASE_URL ?>css/style.css">
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8656e1;">
             <a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
                 <img src="<?= $BASE_URL ?>img/logo.svg" alt="Agenda">
             </a>

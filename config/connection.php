@@ -3,10 +3,10 @@
         $host = "localhost";
         $dbname = "agenda";
         $user = "root";
-        $password = "071021";
+        //$password = "071021";
 
         try{
-            $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
+            $conn = new PDO("mysql:host=$host;dbname=$dbname", $user);
             // Faz o PDO lançar exceções quando ocorrer algum erro, ou seja: Se acontecer qualquer erro nas operações com o banco de dados, lance uma exceção (Exception) em vez de apenas retornar um erro silencioso.
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $conn;
